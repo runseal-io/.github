@@ -1,0 +1,36 @@
+name: Bug report
+description: Something isn’t working
+labels: [bug]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also tell us what you expected to happen.
+      placeholder: Clear, step-by-step description
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      placeholder: 1) … 2) …
+  - type: input
+    id: version
+    attributes:
+      label: Version/commit
+      placeholder: e.g., v0.4.0 or 1a2b3c4
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs/output
+      render: shell
+  - type: dropdown
+    id: env
+    attributes:
+      label: Environment
+      options:
+        - Linux
+        - macOS
+        - Windows
+        - Other
