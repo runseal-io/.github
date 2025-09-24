@@ -1,0 +1,7 @@
+# Default owners
+*                                 @runseal-io/maintainers @runseal-io/reviewers
+
+# Scoped ownership (examples)
+docs/**                           @runseal-io/reviewers
+verifier/**                       @runseal-io/maintainers
+.github/**                        @runseal-io/maintainers
